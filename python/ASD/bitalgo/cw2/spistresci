@@ -1,0 +1,8 @@
+zad1 (okrag)- sortowanie puntkow kubełkami pamietaca o skalowaniu zlaze=nym od pola
+zad2 (sort_string)- sortowanie slow o roznej dlugosci, suma znakow - n; najpierw kubelki w zal od dlugosci ; potem radix a w srodku counting; stopniowo dodajemy slowa do sortowania
+zad3 (ASD/cw2/zad5-leader)- leader
+zad4 (zakres)- natychmiast O(1) zwraca ile liczb jest w podanym zakresie;counting sort nie pełny
+zad5 (elementy_z_poza_zakresu)- sort n liczb w zakresie 0 k ale 10 z nich jest podmieniona; najpierw tworzymy tablice dobrą oraz tych podmionionych; sortujemy dobrą counting sortem;zła dołączamy insert sortem
+zad6 - (ASD/cw4/zad2.1)sort n liczb w tym logn unikatowych ; tworzymy w ktorej zapisujemy unikatowe wartosci oraz je zliczamy;szukanie w tablicy za pomocą binary search więc potreba sortować tą tablicę; uzywamy insert sorta ale nie pełnego; na koniec do tablicy wpisujemy liczy znalezione z uwzglednieniem ich ilosci zlozonosc: O(nlog(logn) + logn*logn) czyli O(nlog(logn))
+zad7 - (ASD/cw4/zad1)sort n liczb z akresu n^2 -1 ; radix sort o podstawie n; w środku counting sort; złożoność: O(2*(n+n)) = O(n)
+zad8 - (kubełki_linked_list)sortowanie kubełkowe linked listy;uzywamy insertion_sort_linked listy
